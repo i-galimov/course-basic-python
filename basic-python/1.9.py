@@ -1,0 +1,6 @@
+str = input().lower()
+str = str.replace(" ", "")
+set_str = set(str)
+list_str = list(set_str)
+list_str.sort()
+print(*list_str, sep=" ")
